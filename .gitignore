@@ -1,0 +1,5 @@
+**/.DS_Store
+**/Thumbs.DB
+platform/android/obj/
+platform/macos/build/
+platform/macos/XmmEngine.xcodeproj/**/xcuserdata/**
