@@ -16,3 +16,12 @@ Use the build script with the target platform as an argument :
 
 To build for Android you need to have the Android NDK installed,
 and for MacOSX you need to have XCode installed.
+
+#### credits / license
+
+This plugin has been written by the ISMM team at IRCAM, within the context of
+the RAPID-MIX project, funded by the European Union’s Horizon 2020 research and
+innovation programme.  
+The original XMM code has been authored by Jules Françoise.  
+See the [XMM repository](https://github.com/ircam-rnd/xmm) for detailed credits
+and licensing information (dual GPL).  
