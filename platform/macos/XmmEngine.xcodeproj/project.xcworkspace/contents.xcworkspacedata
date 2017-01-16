@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:xmm-macos.xcodeproj">
+      location = "self:/Users/larralde/Projects/git-repositories/Ircam-RnD/unity/plugins/xmm-unity/platform/macos/XmmEngine.xcodeproj">
    </FileRef>
 </Workspace>
