@@ -17,11 +17,10 @@ Use the build script with the target platform as an argument :
 To build for Android you need to have the Android NDK installed,
 and for MacOSX you need to have XCode installed.
 
-#### credits / license
+#### credits
 
-This plugin has been written by the ISMM team at IRCAM, within the context of
-the RAPID-MIX project, funded by the European Union’s Horizon 2020 research and
-innovation programme.  
-The original XMM code has been authored by Jules Françoise.  
-See the [XMM repository](https://github.com/ircam-rnd/xmm) for detailed credits
-and licensing information (dual GPL).  
+This plugin is developed by the [ISMM](http://ismm.ircam.fr/) team at IRCAM,
+within the context of the [RAPID-MIX](http://rapidmix.goldsmithsdigital.com/)
+project, funded by the European Union’s Horizon 2020 research and innovation programme.  
+Original XMM code authored by Jules Françoise, ported to Unity by Joseph Larralde.  
+See [github.com/Ircam-RnD/xmm](https://github.com/Ircam-RnD/xmm) for detailed XMM credits.

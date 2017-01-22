@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311F45B41E338D3F009F3956 /* xmmEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* xmmEngine.h */; };
+		311F45B51E338D4A009F3956 /* xmmEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* xmmEngine.cpp */; };
+		311F45B61E338D59009F3956 /* json_valueiterator.inl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95841CD24F48000E9AC4 /* json_valueiterator.inl */; };
+		311F45B71E338E6D009F3956 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
+		311F45B81E338E6D009F3956 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95831CD24F48000E9AC4 /* json_value.cpp */; };
+		311F45B91E338E6D009F3956 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95851CD24F48000E9AC4 /* json_writer.cpp */; };
+		311F45BA1E338E79009F3956 /* xmmKMeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */; };
+		311F45BB1E338E79009F3956 /* xmmKMeansParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */; };
+		311F45BC1E338E83009F3956 /* xmmHierarchicalHmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */; };
+		311F45BD1E338E83009F3956 /* xmmHmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */; };
+		311F45BE1E338E83009F3956 /* xmmHmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */; };
+		311F45BF1E338E98009F3956 /* xmmGmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */; };
+		311F45C01E338E98009F3956 /* xmmGmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */; };
+		311F45C11E338E98009F3956 /* xmmGmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */; };
+		311F45C21E338E98009F3956 /* xmmPhrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */; };
+		311F45C31E338E98009F3956 /* xmmTrainingSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */; };
+		311F45C41E338E98009F3956 /* xmmModelSharedParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */; };
+		311F45C51E338E98009F3956 /* xmmModelSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */; };
+		311F45C61E338E98009F3956 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
+		311F45C71E338E98009F3956 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
+		311F45C81E338E98009F3956 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		311F458A1E3380EC009F3956 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				311F45B41E338D3F009F3956 /* xmmEngine.h in CopyFiles */,
+				311F45B61E338D59009F3956 /* json_valueiterator.inl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		311F458C1E3380EC009F3956 /* libXmmEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXmmEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		312A5C141CD0F44700EDF507 /* xmmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmmEngine.h; path = ../../plugin/include/xmmEngine.h; sourceTree = SOURCE_ROOT; };
+		312A5C161CD0F45600EDF507 /* xmmEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmEngine.cpp; path = ../../plugin/src/xmmEngine.cpp; sourceTree = SOURCE_ROOT; };
+		319E95771CD24F2E000E9AC4 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assertions.h; path = ../../xmm/dependencies/jsoncpp/include/assertions.h; sourceTree = SOURCE_ROOT; };
+		319E95781CD24F2E000E9AC4 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../../xmm/dependencies/jsoncpp/include/autolink.h; sourceTree = SOURCE_ROOT; };
+		319E95791CD24F2E000E9AC4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../xmm/dependencies/jsoncpp/include/config.h; sourceTree = SOURCE_ROOT; };
+		319E957A1CD24F2E000E9AC4 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forwards.h; path = ../../xmm/dependencies/jsoncpp/include/forwards.h; sourceTree = SOURCE_ROOT; };
+		319E957B1CD24F2E000E9AC4 /* json-features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "json-features.h"; path = "../../xmm/dependencies/jsoncpp/include/json-features.h"; sourceTree = SOURCE_ROOT; };
+		319E957C1CD24F2E000E9AC4 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json.h; path = ../../xmm/dependencies/jsoncpp/include/json.h; sourceTree = SOURCE_ROOT; };
+		319E957D1CD24F2E000E9AC4 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reader.h; path = ../../xmm/dependencies/jsoncpp/include/reader.h; sourceTree = SOURCE_ROOT; };
+		319E957E1CD24F2E000E9AC4 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value.h; path = ../../xmm/dependencies/jsoncpp/include/value.h; sourceTree = SOURCE_ROOT; };
+		319E957F1CD24F2E000E9AC4 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../xmm/dependencies/jsoncpp/include/version.h; sourceTree = SOURCE_ROOT; };
+		319E95801CD24F2E000E9AC4 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = writer.h; path = ../../xmm/dependencies/jsoncpp/include/writer.h; sourceTree = SOURCE_ROOT; };
+		319E95811CD24F48000E9AC4 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reader.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_reader.cpp; sourceTree = SOURCE_ROOT; };
+		319E95821CD24F48000E9AC4 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_tool.h; path = ../../xmm/dependencies/jsoncpp/src/json_tool.h; sourceTree = SOURCE_ROOT; };
+		319E95831CD24F48000E9AC4 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_value.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_value.cpp; sourceTree = SOURCE_ROOT; };
+		319E95841CD24F48000E9AC4 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json_valueiterator.inl; path = ../../xmm/dependencies/jsoncpp/src/json_valueiterator.inl; sourceTree = SOURCE_ROOT; };
+		319E95851CD24F48000E9AC4 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_writer.cpp; sourceTree = SOURCE_ROOT; };
+		319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeans.cpp; path = ../../xmm/src/models/kmeans/xmmKMeans.cpp; sourceTree = SOURCE_ROOT; };
+		319E958B1CD24F70000E9AC4 /* xmmKMeans.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeans.hpp; path = ../../xmm/src/models/kmeans/xmmKMeans.hpp; sourceTree = SOURCE_ROOT; };
+		319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeansParameters.cpp; path = ../../xmm/src/models/kmeans/xmmKMeansParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E958D1CD24F70000E9AC4 /* xmmKMeansParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansParameters.hpp; path = ../../xmm/src/models/kmeans/xmmKMeansParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E958E1CD24F70000E9AC4 /* xmmKMeansResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansResults.hpp; path = ../../xmm/src/models/kmeans/xmmKMeansResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHierarchicalHmm.cpp; path = ../../xmm/src/models/hmm/xmmHierarchicalHmm.cpp; sourceTree = SOURCE_ROOT; };
+		319E95921CD24F82000E9AC4 /* xmmHierarchicalHmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHierarchicalHmm.hpp; path = ../../xmm/src/models/hmm/xmmHierarchicalHmm.hpp; sourceTree = SOURCE_ROOT; };
+		319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmParameters.cpp; path = ../../xmm/src/models/hmm/xmmHmmParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E95941CD24F82000E9AC4 /* xmmHmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmParameters.hpp; path = ../../xmm/src/models/hmm/xmmHmmParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95951CD24F82000E9AC4 /* xmmHmmResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmResults.hpp; path = ../../xmm/src/models/hmm/xmmHmmResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmSingleClass.cpp; path = ../../xmm/src/models/hmm/xmmHmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95971CD24F82000E9AC4 /* xmmHmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmSingleClass.hpp; path = ../../xmm/src/models/hmm/xmmHmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmm.cpp; path = ../../xmm/src/models/gmm/xmmGmm.cpp; sourceTree = SOURCE_ROOT; };
+		319E959C1CD24F9D000E9AC4 /* xmmGmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmm.hpp; path = ../../xmm/src/models/gmm/xmmGmm.hpp; sourceTree = SOURCE_ROOT; };
+		319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmParameters.cpp; path = ../../xmm/src/models/gmm/xmmGmmParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E959E1CD24F9D000E9AC4 /* xmmGmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmParameters.hpp; path = ../../xmm/src/models/gmm/xmmGmmParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmSingleClass.cpp; path = ../../xmm/src/models/gmm/xmmGmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A01CD24F9D000E9AC4 /* xmmGmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmSingleClass.hpp; path = ../../xmm/src/models/gmm/xmmGmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmPhrase.cpp; path = ../../xmm/src/core/trainingset/xmmPhrase.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A51CD24FB1000E9AC4 /* xmmPhrase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmPhrase.hpp; path = ../../xmm/src/core/trainingset/xmmPhrase.hpp; sourceTree = SOURCE_ROOT; };
+		319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmTrainingSet.cpp; path = ../../xmm/src/core/trainingset/xmmTrainingSet.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A71CD24FB1000E9AC4 /* xmmTrainingSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmTrainingSet.hpp; path = ../../xmm/src/core/trainingset/xmmTrainingSet.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AA1CD24FC8000E9AC4 /* xmmModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModel.hpp; path = ../../xmm/src/core/model/xmmModel.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AB1CD24FC8000E9AC4 /* xmmModelConfiguration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelConfiguration.hpp; path = ../../xmm/src/core/model/xmmModelConfiguration.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AC1CD24FC8000E9AC4 /* xmmModelParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelParameters.hpp; path = ../../xmm/src/core/model/xmmModelParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AD1CD24FC8000E9AC4 /* xmmModelResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelResults.hpp; path = ../../xmm/src/core/model/xmmModelResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSharedParameters.cpp; path = ../../xmm/src/core/model/xmmModelSharedParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E95AF1CD24FC8000E9AC4 /* xmmModelSharedParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSharedParameters.hpp; path = ../../xmm/src/core/model/xmmModelSharedParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSingleClass.cpp; path = ../../xmm/src/core/model/xmmModelSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B11CD24FC8000E9AC4 /* xmmModelSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSingleClass.hpp; path = ../../xmm/src/core/model/xmmModelSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGaussianDistribution.cpp; path = ../../xmm/src/core/distributions/xmmGaussianDistribution.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B51CD24FE7000E9AC4 /* xmmGaussianDistribution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGaussianDistribution.hpp; path = ../../xmm/src/core/distributions/xmmGaussianDistribution.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmAttribute.cpp; path = ../../xmm/src/core/common/xmmAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B81CD24FFA000E9AC4 /* xmmAttribute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmAttribute.hpp; path = ../../xmm/src/core/common/xmmAttribute.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B91CD24FFA000E9AC4 /* xmmCircularbuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmCircularbuffer.hpp; path = ../../xmm/src/core/common/xmmCircularbuffer.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BA1CD24FFA000E9AC4 /* xmmEvents.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmEvents.hpp; path = ../../xmm/src/core/common/xmmEvents.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmJson.cpp; path = ../../xmm/src/core/common/xmmJson.cpp; sourceTree = SOURCE_ROOT; };
+		319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmJson.hpp; path = ../../xmm/src/core/common/xmmJson.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmMatrix.hpp; path = ../../xmm/src/core/common/xmmMatrix.hpp; sourceTree = SOURCE_ROOT; };
+		319E95C01CD25047000E9AC4 /* xmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmm.h; path = ../../xmm/src/xmm.h; sourceTree = SOURCE_ROOT; };
+		31CF5F211E30C2710086D3BE /* xmmModelTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xmmModelTools.h; path = ../../plugin/include/xmmModelTools.h; sourceTree = "<group>"; };
+		31CF5F221E30C2D20086D3BE /* xmmTrainingSetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xmmTrainingSetTool.h; path = ../../plugin/include/xmmTrainingSetTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311F45891E3380EC009F3956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312A5BA81CD0F1AE00EDF507 = {
+			isa = PBXGroup;
+			children = (
+				312A5C111CD0F3F900EDF507 /* plugin */,
+				312A5BBA1CD0F23A00EDF507 /* xmm */,
+				312A5BB21CD0F1AE00EDF507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312A5BB21CD0F1AE00EDF507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311F458C1E3380EC009F3956 /* libXmmEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312A5BBA1CD0F23A00EDF507 /* xmm */ = {
+			isa = PBXGroup;
+			children = (
+				319E95C01CD25047000E9AC4 /* xmm.h */,
+				312A5BFB1CD0F37800EDF507 /* jsoncpp */,
+				312A5BC01CD0F28000EDF507 /* models */,
+				312A5BBB1CD0F24700EDF507 /* core */,
+			);
+			name = xmm;
+			sourceTree = "<group>";
+		};
+		312A5BBB1CD0F24700EDF507 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				312A5BBF1CD0F27800EDF507 /* trainingset */,
+				312A5BBE1CD0F27200EDF507 /* model */,
+				312A5BBD1CD0F26A00EDF507 /* distributions */,
+				312A5BBC1CD0F25F00EDF507 /* common */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		312A5BBC1CD0F25F00EDF507 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */,
+				319E95B81CD24FFA000E9AC4 /* xmmAttribute.hpp */,
+				319E95B91CD24FFA000E9AC4 /* xmmCircularbuffer.hpp */,
+				319E95BA1CD24FFA000E9AC4 /* xmmEvents.hpp */,
+				319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */,
+				319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */,
+				319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		312A5BBD1CD0F26A00EDF507 /* distributions */ = {
+			isa = PBXGroup;
+			children = (
+				319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */,
+				319E95B51CD24FE7000E9AC4 /* xmmGaussianDistribution.hpp */,
+			);
+			name = distributions;
+			sourceTree = "<group>";
+		};
+		312A5BBE1CD0F27200EDF507 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				319E95AA1CD24FC8000E9AC4 /* xmmModel.hpp */,
+				319E95AB1CD24FC8000E9AC4 /* xmmModelConfiguration.hpp */,
+				319E95AC1CD24FC8000E9AC4 /* xmmModelParameters.hpp */,
+				319E95AD1CD24FC8000E9AC4 /* xmmModelResults.hpp */,
+				319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */,
+				319E95AF1CD24FC8000E9AC4 /* xmmModelSharedParameters.hpp */,
+				319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */,
+				319E95B11CD24FC8000E9AC4 /* xmmModelSingleClass.hpp */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		312A5BBF1CD0F27800EDF507 /* trainingset */ = {
+			isa = PBXGroup;
+			children = (
+				319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */,
+				319E95A51CD24FB1000E9AC4 /* xmmPhrase.hpp */,
+				319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */,
+				319E95A71CD24FB1000E9AC4 /* xmmTrainingSet.hpp */,
+			);
+			name = trainingset;
+			sourceTree = "<group>";
+		};
+		312A5BC01CD0F28000EDF507 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				312A5BC31CD0F29B00EDF507 /* kmeans */,
+				312A5BC21CD0F29600EDF507 /* hmm */,
+				312A5BC11CD0F28B00EDF507 /* gmm */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		312A5BC11CD0F28B00EDF507 /* gmm */ = {
+			isa = PBXGroup;
+			children = (
+				319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */,
+				319E959C1CD24F9D000E9AC4 /* xmmGmm.hpp */,
+				319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */,
+				319E959E1CD24F9D000E9AC4 /* xmmGmmParameters.hpp */,
+				319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */,
+				319E95A01CD24F9D000E9AC4 /* xmmGmmSingleClass.hpp */,
+			);
+			name = gmm;
+			sourceTree = "<group>";
+		};
+		312A5BC21CD0F29600EDF507 /* hmm */ = {
+			isa = PBXGroup;
+			children = (
+				319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */,
+				319E95921CD24F82000E9AC4 /* xmmHierarchicalHmm.hpp */,
+				319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */,
+				319E95941CD24F82000E9AC4 /* xmmHmmParameters.hpp */,
+				319E95951CD24F82000E9AC4 /* xmmHmmResults.hpp */,
+				319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */,
+				319E95971CD24F82000E9AC4 /* xmmHmmSingleClass.hpp */,
+			);
+			name = hmm;
+			sourceTree = "<group>";
+		};
+		312A5BC31CD0F29B00EDF507 /* kmeans */ = {
+			isa = PBXGroup;
+			children = (
+				319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */,
+				319E958B1CD24F70000E9AC4 /* xmmKMeans.hpp */,
+				319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */,
+				319E958D1CD24F70000E9AC4 /* xmmKMeansParameters.hpp */,
+				319E958E1CD24F70000E9AC4 /* xmmKMeansResults.hpp */,
+			);
+			name = kmeans;
+			sourceTree = "<group>";
+		};
+		312A5BFB1CD0F37800EDF507 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				312A5BFD1CD0F38900EDF507 /* include */,
+				312A5BFC1CD0F37F00EDF507 /* src */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		312A5BFC1CD0F37F00EDF507 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				319E95811CD24F48000E9AC4 /* json_reader.cpp */,
+				319E95821CD24F48000E9AC4 /* json_tool.h */,
+				319E95831CD24F48000E9AC4 /* json_value.cpp */,
+				319E95841CD24F48000E9AC4 /* json_valueiterator.inl */,
+				319E95851CD24F48000E9AC4 /* json_writer.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		312A5BFD1CD0F38900EDF507 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				319E95771CD24F2E000E9AC4 /* assertions.h */,
+				319E95781CD24F2E000E9AC4 /* autolink.h */,
+				319E95791CD24F2E000E9AC4 /* config.h */,
+				319E957A1CD24F2E000E9AC4 /* forwards.h */,
+				319E957B1CD24F2E000E9AC4 /* json-features.h */,
+				319E957C1CD24F2E000E9AC4 /* json.h */,
+				319E957D1CD24F2E000E9AC4 /* reader.h */,
+				319E957E1CD24F2E000E9AC4 /* value.h */,
+				319E957F1CD24F2E000E9AC4 /* version.h */,
+				319E95801CD24F2E000E9AC4 /* writer.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		312A5C111CD0F3F900EDF507 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				312A5C131CD0F43200EDF507 /* include */,
+				312A5C121CD0F41E00EDF507 /* src */,
+			);
+			name = plugin;
+			sourceTree = "<group>";
+		};
+		312A5C121CD0F41E00EDF507 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				312A5C161CD0F45600EDF507 /* xmmEngine.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		312A5C131CD0F43200EDF507 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				312A5C141CD0F44700EDF507 /* xmmEngine.h */,
+				31CF5F211E30C2710086D3BE /* xmmModelTools.h */,
+				31CF5F221E30C2D20086D3BE /* xmmTrainingSetTool.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311F458B1E3380EC009F3956 /* XmmEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311F45921E3380EC009F3956 /* Build configuration list for PBXNativeTarget "XmmEngine" */;
+			buildPhases = (
+				311F45881E3380EC009F3956 /* Sources */,
+				311F45891E3380EC009F3956 /* Frameworks */,
+				311F458A1E3380EC009F3956 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmmEngine;
+			productName = XmmEngineTest;
+			productReference = 311F458C1E3380EC009F3956 /* libXmmEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312A5BA91CD0F1AE00EDF507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = IRCAM;
+				TargetAttributes = {
+					311F458B1E3380EC009F3956 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QH43ACNYS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 312A5BAC1CD0F1AE00EDF507 /* Build configuration list for PBXProject "XmmEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 312A5BA81CD0F1AE00EDF507;
+			productRefGroup = 312A5BB21CD0F1AE00EDF507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311F458B1E3380EC009F3956 /* XmmEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311F45881E3380EC009F3956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311F45BF1E338E98009F3956 /* xmmGmm.cpp in Sources */,
+				311F45C01E338E98009F3956 /* xmmGmmParameters.cpp in Sources */,
+				311F45C11E338E98009F3956 /* xmmGmmSingleClass.cpp in Sources */,
+				311F45C21E338E98009F3956 /* xmmPhrase.cpp in Sources */,
+				311F45C31E338E98009F3956 /* xmmTrainingSet.cpp in Sources */,
+				311F45C41E338E98009F3956 /* xmmModelSharedParameters.cpp in Sources */,
+				311F45C51E338E98009F3956 /* xmmModelSingleClass.cpp in Sources */,
+				311F45C61E338E98009F3956 /* xmmGaussianDistribution.cpp in Sources */,
+				311F45C71E338E98009F3956 /* xmmAttribute.cpp in Sources */,
+				311F45C81E338E98009F3956 /* xmmJson.cpp in Sources */,
+				311F45BC1E338E83009F3956 /* xmmHierarchicalHmm.cpp in Sources */,
+				311F45BD1E338E83009F3956 /* xmmHmmParameters.cpp in Sources */,
+				311F45BE1E338E83009F3956 /* xmmHmmSingleClass.cpp in Sources */,
+				311F45BA1E338E79009F3956 /* xmmKMeans.cpp in Sources */,
+				311F45BB1E338E79009F3956 /* xmmKMeansParameters.cpp in Sources */,
+				311F45B71E338E6D009F3956 /* json_reader.cpp in Sources */,
+				311F45B81E338E6D009F3956 /* json_value.cpp in Sources */,
+				311F45B91E338E6D009F3956 /* json_writer.cpp in Sources */,
+				311F45B51E338D4A009F3956 /* xmmEngine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		311F45931E3380EC009F3956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QH43ACNYS6;
+				INSTALL_PATH = /;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		311F45941E3380EC009F3956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QH43ACNYS6;
+				INSTALL_PATH = /;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312A5BB51CD0F1AE00EDF507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/bin";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		312A5BB61CD0F1AE00EDF507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/bin";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311F45921E3380EC009F3956 /* Build configuration list for PBXNativeTarget "XmmEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311F45931E3380EC009F3956 /* Debug */,
+				311F45941E3380EC009F3956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312A5BAC1CD0F1AE00EDF507 /* Build configuration list for PBXProject "XmmEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312A5BB51CD0F1AE00EDF507 /* Debug */,
+				312A5BB61CD0F1AE00EDF507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312A5BA91CD0F1AE00EDF507 /* Project object */;
+}

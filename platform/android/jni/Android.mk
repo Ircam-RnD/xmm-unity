@@ -18,7 +18,6 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/$(ROOT_PATH)/plugin/include \
 		$(LOCAL_JSONCPP_SRC)/include $(LOCAL_XMM_SRC)
 
 LOCAL_SRC_FILES := $(CODE_PATH)/src/xmmEngine.cpp \
-		$(CODE_PATH)/src/xmmEngineCore.cpp \
 		$(LOCAL_XMM_SRC)/core/common/xmmAttribute.cpp \
 		$(LOCAL_XMM_SRC)/core/common/xmmJson.cpp \
 		$(LOCAL_XMM_SRC)/core/distributions/xmmGaussianDistribution.cpp \

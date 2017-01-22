@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		312A5C181CD0F45600EDF507 /* xmmEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* xmmEngine.cpp */; };
-		312A5C191CD0F45600EDF507 /* xmmEngineCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C171CD0F45600EDF507 /* xmmEngineCore.cpp */; };
-		312A5C1B1CD0FAFE00EDF507 /* xmmEngine.h in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* xmmEngine.h */; };
 		312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C1C1CD0FCFE00EDF507 /* Info.plist */; };
 		319E95861CD24F48000E9AC4 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
 		319E95871CD24F48000E9AC4 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95831CD24F48000E9AC4 /* json_value.cpp */; };
@@ -30,15 +28,15 @@
 		319E95B61CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
 		319E95BE1CD24FFA000E9AC4 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
 		319E95BF1CD24FFA000E9AC4 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
+		31CF5F201E2F70900086D3BE /* xmmEngine.h in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* xmmEngine.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31155E3E1E27850B00801A4E /* xmmTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmmTool.h; path = ../../plugin/include/xmmTool.h; sourceTree = "<group>"; };
+		311F458E1E3380EC009F3956 /* XmmEngineTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmmEngineTest.h; sourceTree = "<group>"; };
+		311F458F1E3380EC009F3956 /* XmmEngineTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmmEngineTest.m; sourceTree = "<group>"; };
 		312A5BB11CD0F1AE00EDF507 /* XmmEngine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmmEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		312A5C141CD0F44700EDF507 /* xmmEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmmEngine.h; path = ../../plugin/include/xmmEngine.h; sourceTree = SOURCE_ROOT; };
-		312A5C151CD0F44700EDF507 /* xmmEngineCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmmEngineCore.h; path = ../../plugin/include/xmmEngineCore.h; sourceTree = SOURCE_ROOT; };
 		312A5C161CD0F45600EDF507 /* xmmEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmEngine.cpp; path = ../../plugin/src/xmmEngine.cpp; sourceTree = SOURCE_ROOT; };
-		312A5C171CD0F45600EDF507 /* xmmEngineCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmEngineCore.cpp; path = ../../plugin/src/xmmEngineCore.cpp; sourceTree = SOURCE_ROOT; };
 		312A5C1C1CD0FCFE00EDF507 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319E95771CD24F2E000E9AC4 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assertions.h; path = ../../xmm/dependencies/jsoncpp/include/assertions.h; sourceTree = SOURCE_ROOT; };
 		319E95781CD24F2E000E9AC4 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../../xmm/dependencies/jsoncpp/include/autolink.h; sourceTree = SOURCE_ROOT; };
@@ -95,6 +93,8 @@
 		319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmJson.hpp; path = ../../xmm/src/core/common/xmmJson.hpp; sourceTree = SOURCE_ROOT; };
 		319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmMatrix.hpp; path = ../../xmm/src/core/common/xmmMatrix.hpp; sourceTree = SOURCE_ROOT; };
 		319E95C01CD25047000E9AC4 /* xmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmm.h; path = ../../xmm/src/xmm.h; sourceTree = SOURCE_ROOT; };
+		31CF5F211E30C2710086D3BE /* xmmModelTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xmmModelTools.h; path = ../../plugin/include/xmmModelTools.h; sourceTree = "<group>"; };
+		31CF5F221E30C2D20086D3BE /* xmmTrainingSetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xmmTrainingSetTool.h; path = ../../plugin/include/xmmTrainingSetTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311F458D1E3380EC009F3956 /* XmmEngineTest */ = {
+			isa = PBXGroup;
+			children = (
+				311F458E1E3380EC009F3956 /* XmmEngineTest.h */,
+				311F458F1E3380EC009F3956 /* XmmEngineTest.m */,
+			);
+			path = XmmEngineTest;
+			sourceTree = "<group>";
+		};
 		312A5BA81CD0F1AE00EDF507 = {
 			isa = PBXGroup;
 			children = (
 				312A5C1C1CD0FCFE00EDF507 /* Info.plist */,
 				312A5C111CD0F3F900EDF507 /* plugin */,
 				312A5BBA1CD0F23A00EDF507 /* xmm */,
+				311F458D1E3380EC009F3956 /* XmmEngineTest */,
 				312A5BB21CD0F1AE00EDF507 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -297,7 +307,6 @@
 			isa = PBXGroup;
 			children = (
 				312A5C161CD0F45600EDF507 /* xmmEngine.cpp */,
-				312A5C171CD0F45600EDF507 /* xmmEngineCore.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -305,9 +314,9 @@
 		312A5C131CD0F43200EDF507 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				31155E3E1E27850B00801A4E /* xmmTool.h */,
 				312A5C141CD0F44700EDF507 /* xmmEngine.h */,
-				312A5C151CD0F44700EDF507 /* xmmEngineCore.h */,
+				31CF5F211E30C2710086D3BE /* xmmModelTools.h */,
+				31CF5F221E30C2D20086D3BE /* xmmTrainingSetTool.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -368,7 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312A5C1B1CD0FAFE00EDF507 /* xmmEngine.h in Resources */,
+				31CF5F201E2F70900086D3BE /* xmmEngine.h in Resources */,
 				319E95881CD24F48000E9AC4 /* json_valueiterator.inl in Resources */,
 				312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */,
 			);
@@ -382,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				319E959A1CD24F82000E9AC4 /* xmmHmmSingleClass.cpp in Sources */,
-				312A5C191CD0F45600EDF507 /* xmmEngineCore.cpp in Sources */,
 				319E95871CD24F48000E9AC4 /* json_value.cpp in Sources */,
 				319E95A81CD24FB1000E9AC4 /* xmmPhrase.cpp in Sources */,
 				319E95B31CD24FC8000E9AC4 /* xmmModelSingleClass.cpp in Sources */,
@@ -448,7 +456,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
