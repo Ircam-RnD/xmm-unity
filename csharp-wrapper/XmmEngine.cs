@@ -215,7 +215,7 @@ public class XmmInterface {
 //============================================================================//
 
 /// <summary>
-/// The XmmTrainingSet class blablabla ...
+/// The XmmTrainingSet class
 /// </summary>
 
 public class XmmTrainingSet {
@@ -324,7 +324,7 @@ public class XmmTrainingSet {
 //============================================================================//
 
 /// <summary>
-/// The XmmModel class blablabla ...
+/// The XmmModel class
 /// </summary>
 
 public class XmmModel {
